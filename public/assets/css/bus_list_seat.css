@@ -1,0 +1,94 @@
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 100px;
+}
+
+.item {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-details {
+    font-size: 16px;
+    color: #333;
+}
+
+.location {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.departure,
+.arrival {
+    margin-top: 10px;
+}
+
+.duration,
+.class,
+.price,
+.insurance {
+    margin-top: 5px;
+}
+
+.centered-div-ops {
+    display: flex;
+    /*    justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Flex Container para alinhar as divs lado a lado */
+.container-item-list {
+    display: flex;
+    flex-wrap: wrap; /* Garante que as divs quebrem a linha se não couberem na tela */
+    justify-content: space-between; /* Alinha as divs no começo e no final da linha */
+}
+
+/* Estilo da div container-item-details */
+.container-item-details {
+    width: 90%; /* Largura ocupando 70% da tela */
+    /* Outros estilos (margens, padding, etc.) */
+}
+
+/* Estilo da div button-to-choose-the-trip */
+.button-to-choose-the-trip {
+    width: 10%; /* Largura ocupando 30% da tela */
+    display: flex; /* Torna a div um flex container */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    /* Outros estilos (margens, padding, etc.) */
+}
+
+/* Estilização do botão dentro da div button-to-choose-the-trip */
+.button-to-choose-the-trip button {
+}
+
+input[type="submit"] {
+    margin: auto auto; /* Centraliza o botão horizontalmente */
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilização do h1 dentro da ul */
+.item-list h1 {
+    width: 100%; /* Ocupa 100% da largura da ul */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    /* Outros estilos (margens, padding, etc.) */
+}
+
+/* Estilo da div centered-div-ops (div do rodapé) */
+.baseboard {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    /* Outros estilos (margens, padding, etc.) */
+}
